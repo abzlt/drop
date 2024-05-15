@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Drop Reset Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CS2 Drop Reset Timer</h1>
+        <div id="timer">
+            <p>Next Drop Reset In:</p>
+            <h2 id="countdown"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
