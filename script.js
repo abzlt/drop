@@ -37,4 +37,7 @@ function updateCountdown() {
 }
 
 setInterval(updateCountdown, 1000);
-updateCountdown();
+updateCountdown()
+document.getElementById('scrollPrompt').addEventListener('click', function() {
+    document.getElementById('hiddenSection').scrollIntoView({ behavior: 'smooth' });
+});
